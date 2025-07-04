@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Helicon'
+copyright = 'Wen Jiang, Daoyi Li'
+author = 'Wen Jiang, Daoyi Li'
 
 release = '0.1'
 version = '0.1.0'
