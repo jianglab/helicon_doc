@@ -1,11 +1,6 @@
 Installation
 =====
 
-.. _installation:
-
-Installation
-------------
-
 To install helicon, first install it using pip:
 
 .. code-block:: console
