@@ -5,7 +5,7 @@ Welcome to Helicon's documentation!
 
 To install the helicon, one could check :doc:`installation` on how to install the helicon properly.
 Check out the :doc:`Denovo3D` section for further information, this include the tutorial of the 2D class in the EMPIAR-10940 dataset
-
+For the helicon helicalPitch program, check out the :doc:`helicalPitch` section for the tutorial of the 2D class in the EMPIAR-10940 dataset.
 .. note::
 
    This project is under active development.
@@ -17,4 +17,5 @@ Contents
 
    installation
    Denovo3D
+   helicalPitch
    api

@@ -11,6 +11,3 @@ star file of the 2D classification result from the EMPIAR 10940 dataset
 ------------
 
 Download the 2D class average from the EMPIAR-10940 dataset
-
-Low twist 2D class average image
-----------------
