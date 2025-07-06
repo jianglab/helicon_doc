@@ -12,6 +12,18 @@ from the 2D class average image with short pitch to the image that does not incl
 
 Download the 2D class average from the EMPIAR-10940 dataset
 
+.. code-block:: bash
+
+   wget wget https://ftp.ebi.ac.uk/empiar/world_availability/10940/data/EMPIAR/Class2D/768px/run_it020_classes.mrcs
+
+run the denovo3D helicon with the following command:
+
+.. code-block:: bash
+    helicon denovo3D
+
+One can play with the parameters of the denovo3D
+
+
 Low twist 2D class average image
 ----------------
 
