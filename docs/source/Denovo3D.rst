@@ -28,5 +28,10 @@ One can play with the parameters of the denovo3D
 Low twist 2D class average image
 ----------------
 
+Download the 2D class average from the zenodo:
+
+.. code-block:: bash
+    
+    wget https://zenodo.org/record/15800626/helicon/low_twist_class.mrcs
 
 
