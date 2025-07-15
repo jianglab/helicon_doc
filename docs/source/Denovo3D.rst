@@ -34,7 +34,7 @@ URL and put the following URL:
 or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
 Like the following image:
 
-.. image:: ../image/denovo3D_transform.png
+.. image:: image/denovo3D_transform.png
     :width: 600px
     :align: center
 
