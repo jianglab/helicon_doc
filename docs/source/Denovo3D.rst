@@ -27,11 +27,16 @@ URL and put the following URL:
 .. code-block:: bash
     https://ftp.ebi.ac.uk/empiar/world_availability/10940/data/EMPIAR/Class2D/job010/run_it020_classes.mrcs
 
+
 4. Select an image on the left panel.
 
 5. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image, 
 or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
 Like the following image:
+
+.. image:: ../image/denovo3D_transform.png
+    :width: 600px
+    :align: center
 
 6. Select the searching range for the helical rise and twist.
 
