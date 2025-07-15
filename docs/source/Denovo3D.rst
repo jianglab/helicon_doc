@@ -10,20 +10,32 @@ from the 2D class average image with short pitch to the image that does not incl
 2D class deposited in the EMPIAR-10940 dataset
 ------------
 
-Download the 2D class average from the EMPIAR-10940 dataset
+1. (optional) Download the 2D class average from the EMPIAR-10940 dataset
 
 .. code-block:: bash
     
     wget https://ftp.ebi.ac.uk/empiar/world_availability/10940/data/EMPIAR/Class2D/768px/run_it020_classes.mrcs
 
-Run the denovo3D helicon with the following command:
+2. Run the denovo3D helicon with the following command:
 
 .. code-block:: bash
     
     helicon denovo3D
 
-One can play with the parameters of the denovo3D
+3. There is an option to select "How to obtain the input image", one can upload the 2D class average image just downloaded or select the 
+URL and put the following URL:
+.. code-block:: bash
+    https://ftp.ebi.ac.uk/empiar/world_availability/10940/data/EMPIAR/Class2D/job010/run_it020_classes.mrcs
 
+4. Select an image on the left panel.
+
+5. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image, 
+or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
+Like the following image:
+
+6. Select the searching range for the helical rise and twist.
+
+7. Click the 'Run' button to start the denovo3D analysis.
 
 Low twist 2D class average image
 ----------------
