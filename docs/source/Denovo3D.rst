@@ -42,6 +42,17 @@ Like the following image:
 
 7. Click the 'Run' button to start the denovo3D analysis.
 
+8. After the analysis is done, the results will be displayed in the right panel. The results is a 2D curve
+if the twist or the rise is fixd. It will be a heat map if both twist and rise need to be searched. Below is an 
+example of the result:
+
+.. image:: ../images/curve.png
+    :width: 800px
+    :align: center
+
+The upper panel shows the 2D curve of the searched twist. The lower panel shows the reconstruction result with 
+the best twist value.
+
 Low twist 2D class average image
 ----------------
 
