@@ -25,6 +25,7 @@ from the 2D class average image with short pitch to the image that does not incl
 3. There is an option to select "How to obtain the input image", one can upload the 2D class average image just downloaded or select the 
 URL and put the following URL:
 .. code-block:: bash
+    
     https://ftp.ebi.ac.uk/empiar/world_availability/10940/data/EMPIAR/Class2D/job010/run_it020_classes.mrcs
 
 
@@ -60,6 +61,6 @@ Download the 2D class average from the zenodo:
 
 .. code-block:: bash
     
-    wget https://zenodo.org/record/15800626/helicon/low_twist_class.mrcs
+    wget https://zenodo.org/api/records/15800626
 
 
