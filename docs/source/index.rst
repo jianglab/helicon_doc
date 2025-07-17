@@ -16,4 +16,5 @@ Contents
    installation
    Denovo3D
    helicalPitch
+   notes
    api
