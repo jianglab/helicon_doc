@@ -10,4 +10,6 @@ from the 2D class average image with short pitch to the image that does not incl
 star file of the 2D classification result from the EMPIAR 10940 dataset
 ------------
 
-Download the 2D class average from the EMPIAR-10940 dataset
+1. Download the 2D class average from the EMPIAR-10940 dataset
+
+Test
