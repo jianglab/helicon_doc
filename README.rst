@@ -1,4 +1,4 @@
-This is the repository of the helicon tutorial
+Read the doc repository for Helicon tutorial
 =======================================
 
 Read the tutorial here:

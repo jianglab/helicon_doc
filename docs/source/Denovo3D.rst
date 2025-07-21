@@ -24,6 +24,7 @@ from the 2D class average image with short pitch to the image that does not incl
 
 3. There is an option to select "How to obtain the input image", one can upload the 2D class average image just downloaded or select the 
 URL and put the following URL:
+
 .. code-block:: bash
     
     https://ftp.ebi.ac.uk/empiar/world_availability/10940/data/EMPIAR/Class2D/job010/run_it020_classes.mrcs
@@ -35,7 +36,7 @@ URL and put the following URL:
 or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
 Like the following image:
 
-.. image:: ../images/transform.png
+.. image:: ../images/default_parameters.png
     :width: 600px
     :align: center
 
