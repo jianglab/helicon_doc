@@ -58,39 +58,36 @@ the best twist value.
 Low twist 2D class average image
 ----------------
 
-1. Download the 2D class average from the zenodo:
+1. Download the 2D class average from the zenodo and unzip the downloaded file:
 
 .. code-block:: bash
     
     wget https://zenodo.org/api/records/15800626
-
-2. Unzip the downloaded file:
-.. code-block:: bash
-
     unzip ./helicon.zip
 
-3. Run the denovo3D helicon with the following command:
+2. Run the denovo3D helicon with the following command:
+
 .. code-block:: bash
     
     helicon denovo3D
 
-4. On the left panel, there is a tab to change the parameters.
+3. On the left panel, there is a tab to change the parameters.
 
 .. image:: ../images/parameters.png
     :width: 200px
     :align: center
 
-5. Click the 'Paramters' and change the L1 regularization ratio to 1 to only use the L1 regularization. 
+4. Click the 'Paramters' and change the L1 regularization ratio to 1 to only use the L1 regularization. 
 The default value is 0.5, which means that L1 and L2 regularization have the equal weight.
 
-6. Select the image on the left panel.
+5. Select the image on the left panel.
 
-7. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image,
+6. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image,
 or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
 
-8. Select the searching range for the helical rise and twist.
+7. Select the searching range for the helical rise and twist.
 
-9. Click the 'Run' button to start the denovo3D analysis.
+8. Click the 'Run' button to start the denovo3D analysis.
 
-10. After the analysis is done, the results will be displayed in the right panel. The estimated helical parameter and 
+9. After the analysis is done, the results will be displayed in the right panel. The estimated helical parameter and 
 the reconstruction result will be shown. 
