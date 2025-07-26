@@ -114,7 +114,7 @@ The default value is 0.5, which means that L1 and L2 regularization have the equ
 the reconstruction result will be shown. This is close to the ground truth value which is -0.46. The reconstructed
 denovo3D density also match the ground truth. 
 
-.. image:: ../images/result_low_twist.png
+.. image:: ../images/results_low_twist.png
     :width: 600px
     :align: center
 
