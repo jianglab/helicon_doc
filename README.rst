@@ -3,4 +3,4 @@ Read the doc repository for Helicon tutorial
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://helicon-tutorial.readthedocs.io/en/latest/
