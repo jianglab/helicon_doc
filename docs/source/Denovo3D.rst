@@ -32,6 +32,10 @@ URL and put the following URL:
 
 4. Select an image on the left panel.
 
+.. image:: ../images/select_input_image.png
+    :width: 600px
+    :align: center
+
 5. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image, 
 or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
 Like the following image:
@@ -42,7 +46,15 @@ Like the following image:
 
 6. Select the searching range for the helical rise and twist.
 
-7. Click the 'Run' button to start the denovo3D analysis.
+.. image:: ../images/search_range.png
+    :width: 600px
+    :align: center
+
+7. Click the 'Reconstruct 3D Map' button to start the denovo3D analysis.
+
+.. image:: ../images/reconstruct_button.png
+    :width: 100px
+    :align: center
 
 8. After the analysis is done, the results will be displayed in the right panel. The results is a 2D curve
 if the twist or the rise is fixd. It will be a heat map if both twist and rise need to be searched. Below is an 
@@ -62,7 +74,7 @@ Low twist 2D class average image
 
 .. code-block:: bash
     
-    wget https://zenodo.org/api/records/15800626
+    wget https://zenodo.org/records/15800626/files/helicon.zip
     unzip ./helicon.zip
 
 2. Run the denovo3D helicon with the following command:
@@ -80,14 +92,16 @@ Low twist 2D class average image
 4. Click the 'Paramters' and change the L1 regularization ratio to 1 to only use the L1 regularization. 
 The default value is 0.5, which means that L1 and L2 regularization have the equal weight.
 
-5. Select the image on the left panel.
+5. Upload the run_it025_classes.mrcs file in the extracted folder as input.
 
-6. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image,
+6. Select the image on the left panel.
+
+7. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image,
 or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
 
-7. Select the searching range for the helical rise and twist.
+8. Select the searching range for the helical rise and twist.
 
-8. Click the 'Run' button to start the denovo3D analysis.
+9. Click the 'Run' button to start the denovo3D analysis.
 
-9. After the analysis is done, the results will be displayed in the right panel. The estimated helical parameter and 
+10. After the analysis is done, the results will be displayed in the right panel. The estimated helical parameter and 
 the reconstruction result will be shown. 
