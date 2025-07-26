@@ -94,14 +94,27 @@ The default value is 0.5, which means that L1 and L2 regularization have the equ
 
 5. Upload the run_it025_classes.mrcs file in the extracted folder as input.
 
-6. Select the image on the left panel.
+6. Select the image on the left panel, in this tutorial, specifically select the image 29 as input.
 
-7. On the right side, there is a transform panel, one can either click the 'Auto transform' button to automatically transform the image,
-or manually adjust the parameters in the transform panel. One need to make sure that the helical image is aligned with the equitor line.
+.. image:: ../images/select_low_twist.png
+    :width: 600px
+    :align: center
+
+7. On the right side, there is a transform panel, please manually adjust the parameters in the transform panel as follow:
+
+.. image:: ../images/parameter_low_twist.png
+    :width: 600px
+    :align: center
 
 8. Select the searching range for the helical rise and twist.
 
 9. Click the 'Run' button to start the denovo3D analysis.
 
 10. After the analysis is done, the results will be displayed in the right panel. The estimated helical parameter and 
-the reconstruction result will be shown. 
+the reconstruction result will be shown. This is close to the ground truth value which is -0.46. The reconstructed
+denovo3D density also match the ground truth. 
+
+.. image:: ../images/result_low_twist.png
+    :width: 600px
+    :align: center
+
