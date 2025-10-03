@@ -1,6 +1,8 @@
 **HILL Tutorial**
+=====
 
 **Import Data:**
+------------
 
 The HILL web app reads the 2D class averages as the input. For your own
 data, you could use the mrc or mrcs file obtained after Class2D in
@@ -8,6 +10,7 @@ Cryosparc or RELION. HILL supports importing data through upload, url or
 EMDB ID.
 
 **Data Quality Assessment:**
+------------
 
 After importing the data, we can go through different class averages to
 assess the quality of the 2D class averages. A good image of a 2D class
@@ -69,6 +72,7 @@ see one example with odd rotational -symmetry and another with even
 rotational-symmetry.
 
 **Example 1: VipA/VipB**
+------------
 
 **Example Data:**
 
@@ -209,6 +213,7 @@ this, we can record the rise, pitch/twist and the c-symmetry parameters
 and move on.
 
 **Example 2: EMD-26987 F-Actin**
+------------
 
 Select the 3rd input option “emd-xxxxx” and Input the EMDB ID:
 emd-26987. With the images and the helical parameters reported in the
@@ -236,6 +241,7 @@ determining the helical parameters when the power spectra is not very
 clear to interpret.
 
 **Example 3: EMD-10129 TMV**
+------------
 
 Select the 3rd input option “emd-xxxxx” and Input the EMDB ID:
 emd-10129. With the images and the helical parameters reported in the
@@ -265,6 +271,7 @@ can see the zoomed-in plots below (**Figure 15**):
 **Figure 15**
 
 **Example 4: PHF Tau**
+------------
 
 In the selection box, select url. Input the url link below:
 
@@ -295,6 +302,7 @@ at the equator to show consistently blue and those other two regions to
 show consistently yellow.
 
 **Example 5: EMD-0260 SF Tau**
+------------
 
 Select the 3rd input option “emd-xxxxx” and Input the EMDB ID: emd-0260.
 With the images and the helical parameters reported in the EMDB entry,
