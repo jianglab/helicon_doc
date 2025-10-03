@@ -1,6 +1,8 @@
 **HILL Tutorial**
 =====
 
+.. _BasicDatasetHILL:
+
 **Import Data:**
 ------------
 
